@@ -67,7 +67,7 @@
   }
 }
 
-\newcommand{\resumeSubheading}[4]{
+\newcommand{\resumeHeading}[4]{
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
@@ -75,7 +75,8 @@
     \end{tabular*}\vspace{-7pt}
 }
 
-\newcommand{\resumeSubSubheading}[2]{
+\newcommand{\resumeSubHeading}[2]{
+    \vspace{-2pt}
     \item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textit{\small#1} & \textit{\small #2} \\
@@ -99,17 +100,15 @@
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
 %-------------------------------------------
-%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \begin{document}
 
 % include all the sections
 \input{components/title}
 \input{components/education}
-% \input{components/experiance}
+\input{components/experiance}
 % \input{components/projects}
 % \input{components/certifications}
 \input{components/skills}
 
-%-------------------------------------------
 \end{document}
+%-------------------------------------------
