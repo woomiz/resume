@@ -5,4 +5,4 @@ Full configuration for this setup can be found [here](https://github.com/woomiz/
 
 View/Download the generated Sample [pdf](./resume.pdf)
 
-![resume](./resume.png)
+![resume](./resume.jpg)
