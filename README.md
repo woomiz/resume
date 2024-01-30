@@ -8,12 +8,9 @@ Full configuration for this setup can be found [here](https://github.com/woomiz/
 
 ### Resume
 
----
-
 ![resume](./output/resume.jpg)
 
 ### CV
 
----
-
-![cv](./output/cv.jpg)
+![cv](./output/cv_pg_1.jpg)
+![cv](./output/cv_pg_2.jpg)
