@@ -14,7 +14,6 @@
 \usepackage{verbatim}
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
-\usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
 \input{glyphtounicode}
@@ -30,13 +29,6 @@
 % serif
 % \usepackage{CormorantGaramond}
 % \usepackage{charter}
-
-
-\pagestyle{fancy}
-\fancyhf{} % clear all header and footer fields
-\fancyfoot{}
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
 
 % Adjust margins
 \addtolength{\oddsidemargin}{-0.5in}
@@ -86,7 +78,7 @@
 \newcommand{\resumeProjectHeading}[2]{
     \item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-        {#1 & #2} \\
+        {#1} & {#2} \\
     \end{tabular*}\vspace{-5pt}
 }
 
@@ -97,7 +89,7 @@
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-4pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-7pt}}
 
 %-------------------------------------------
 \begin{document}
